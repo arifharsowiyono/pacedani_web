@@ -1,0 +1,35 @@
+0 verbose cli /home/arnet/.nvm/versions/node/v20.14.0/bin/node /home/arnet/.nvm/versions/node/v20.14.0/bin/npm
+1 info using npm@10.7.0
+2 info using node@v20.14.0
+3 silly config:load:file:/home/arnet/.nvm/versions/node/v20.14.0/lib/node_modules/npm/npmrc
+4 silly config:load:file:/home/arnet/.npmrc
+5 silly config:load:file:/home/arnet/.nvm/versions/node/v20.14.0/etc/npmrc
+6 verbose title npm install
+7 verbose argv "install"
+8 verbose logfile logs-max:10 dir:/home/arnet/.npm/_logs/2024-06-12T08_00_48_018Z-
+9 verbose logfile /home/arnet/.npm/_logs/2024-06-12T08_00_48_018Z-debug-0.log
+10 silly logfile done cleaning log files
+11 silly idealTree buildDeps
+12 silly reify moves {}
+13 verbose stack Error: Could not read package.json: Error: ENOENT: no such file or directory, open '/home/arnet/package.json'
+13 verbose stack     at async open (node:internal/fs/promises:636:25)
+13 verbose stack     at async readFile (node:internal/fs/promises:1246:14)
+13 verbose stack     at async PackageJson.load (/home/arnet/.nvm/versions/node/v20.14.0/lib/node_modules/npm/node_modules/@npmcli/package-json/lib/index.js:129:31)
+13 verbose stack     at async PackageJson.normalize (/home/arnet/.nvm/versions/node/v20.14.0/lib/node_modules/npm/node_modules/@npmcli/package-json/lib/index.js:115:5)
+13 verbose stack     at async runScript (/home/arnet/.nvm/versions/node/v20.14.0/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/run-script.js:11:28)
+13 verbose stack     at async Install.exec (/home/arnet/.nvm/versions/node/v20.14.0/lib/node_modules/npm/lib/commands/install.js:163:9)
+13 verbose stack     at async module.exports (/home/arnet/.nvm/versions/node/v20.14.0/lib/node_modules/npm/lib/cli/entry.js:74:5)
+14 verbose cwd /home/arnet
+15 verbose Linux 5.15.146.1-microsoft-standard-WSL2
+16 verbose node v20.14.0
+17 verbose npm  v10.7.0
+18 error code ENOENT
+19 error syscall open
+20 error path /home/arnet/package.json
+21 error errno -2
+22 error enoent Could not read package.json: Error: ENOENT: no such file or directory, open '/home/arnet/package.json'
+23 error enoent This is related to npm not being able to find a file.
+23 error enoent
+24 verbose exit -2
+25 verbose code -2
+26 error A complete log of this run can be found in: /home/arnet/.npm/_logs/2024-06-12T08_00_48_018Z-debug-0.log

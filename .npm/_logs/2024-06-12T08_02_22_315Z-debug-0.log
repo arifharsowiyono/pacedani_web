@@ -1,0 +1,39 @@
+0 verbose cli /home/arnet/.nvm/versions/node/v20.14.0/bin/node /home/arnet/.nvm/versions/node/v20.14.0/bin/npm
+1 info using npm@10.7.0
+2 info using node@v20.14.0
+3 silly config:load:file:/home/arnet/.nvm/versions/node/v20.14.0/lib/node_modules/npm/npmrc
+4 silly config:load:file:/home/arnet/fighter_arnet/.npmrc
+5 silly config:load:file:/home/arnet/.npmrc
+6 silly config:load:file:/home/arnet/.nvm/versions/node/v20.14.0/etc/npmrc
+7 verbose title npm install vue@next vue-router@4 @vitejs/plugin-vue
+8 verbose argv "install" "vue@next" "vue-router@4" "@vitejs/plugin-vue"
+9 verbose logfile logs-max:10 dir:/home/arnet/.npm/_logs/2024-06-12T08_02_22_315Z-
+10 verbose logfile /home/arnet/.npm/_logs/2024-06-12T08_02_22_315Z-debug-0.log
+11 silly logfile done cleaning log files
+12 http fetch GET 200 https://registry.npmjs.org/vue 20ms (cache hit)
+13 verbose type tag
+14 verbose stack vue: No matching version found for vue@next.
+14 verbose stack     at module.exports (/home/arnet/.nvm/versions/node/v20.14.0/lib/node_modules/npm/node_modules/npm-pick-manifest/lib/index.js:209:23)
+14 verbose stack     at RegistryFetcher.manifest (/home/arnet/.nvm/versions/node/v20.14.0/lib/node_modules/npm/node_modules/pacote/lib/registry.js:131:54)
+14 verbose stack     at async /home/arnet/.nvm/versions/node/v20.14.0/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:534:22
+14 verbose stack     at async Promise.all (index 0)
+14 verbose stack     at async #add (/home/arnet/.nvm/versions/node/v20.14.0/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:523:5)
+14 verbose stack     at async #applyUserRequestsToNode (/home/arnet/.nvm/versions/node/v20.14.0/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:492:7)
+14 verbose stack     at async #applyUserRequests (/home/arnet/.nvm/versions/node/v20.14.0/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:427:7)
+14 verbose stack     at async Arborist.buildIdealTree (/home/arnet/.nvm/versions/node/v20.14.0/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:202:7)
+14 verbose stack     at async Promise.all (index 1)
+14 verbose stack     at async Arborist.reify (/home/arnet/.nvm/versions/node/v20.14.0/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:131:5)
+15 verbose cwd /home/arnet/fighter_arnet
+16 verbose Linux 5.15.146.1-microsoft-standard-WSL2
+17 verbose node v20.14.0
+18 verbose npm  v10.7.0
+19 error code ETARGET
+20 error notarget No matching version found for vue@next.
+21 error notarget In most cases you or one of your dependencies are requesting
+21 error notarget a package version that doesn't exist.
+22 verbose exit 1
+23 verbose code 1
+24 silly unfinished npm timer reify 1718179342582
+25 silly unfinished npm timer reify:loadTrees 1718179342588
+26 silly unfinished npm timer idealTree:userRequests 1718179342607
+27 error A complete log of this run can be found in: /home/arnet/.npm/_logs/2024-06-12T08_02_22_315Z-debug-0.log
