@@ -104,3 +104,17 @@ git config --global user.name "arifharsowiyono"
 git config --list
 git config --global user.email "druka516@gmail.com"
 git clone https://github.com/arifharsowiyono/pacedani_web.git
+git status
+git add .
+git rm --cached .nvm
+-f
+git status
+git commit -m "first deploy"
+git status
+git push origin main
+git remote -v
+git config --global http.postBuffer
+git config --list
+fatal: the remote end hung up unexpectedly
+git status
+git push
